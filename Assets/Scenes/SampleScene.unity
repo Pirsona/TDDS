@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 1366025709}
   - component: {fileID: 1366025708}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Heal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -815,20 +815,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8329819292169631032, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1428355894}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5481855480264999066, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
---- !u!95 &1428355894 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7187351091779401303, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
-  m_PrefabInstance: {fileID: 1428355890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1428355895 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1513638417302561479, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
