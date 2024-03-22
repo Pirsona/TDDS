@@ -294,6 +294,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2186460150266186550, guid: 52930c6f0d0713646809ba90d4a234fc, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3396916512375419450, guid: 52930c6f0d0713646809ba90d4a234fc, type: 3}
       propertyPath: player
       value: 
@@ -815,8 +819,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5481855480264999066, guid: 5e5dca9de64e83e439b4b0b2f28be5d8, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

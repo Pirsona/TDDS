@@ -450,7 +450,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1459639928408824461}
-  - component: {fileID: 5481855480264999066}
   m_Layer: 0
   m_Name: grenadeFIRE
   m_TagString: Untagged
@@ -473,20 +472,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3929563959403257058}
   m_LocalEulerAnglesHint: {x: -12.869, y: 0, z: 0}
---- !u!114 &5481855480264999066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881114081759805373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eda63a072eb71d409a3dd60383615f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 3
-  explosionPrefab: {fileID: 1890046666863265174, guid: cc5d039b0be998445aad3dd448fc16a8, type: 3}
 --- !u!1 &1897712411671248198
 GameObject:
   m_ObjectHideFlags: 0
